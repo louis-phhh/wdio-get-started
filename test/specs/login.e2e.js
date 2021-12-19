@@ -28,5 +28,5 @@ describe('My Login application', () => {
         });
     }
 
-    TestData.forEach((testData) => doTest(testData));
+    TestData.forEach(doTest);
 });
